@@ -319,6 +319,20 @@ SFXCatalog = [
 		finder: "Pedro PSI",
 		date: "12/06/2021"
 	},
+	{
+		sfx:"92345908",
+		description:"cat sound",
+		tags:["animal","cat"],
+		finder:"shark",
+		date: "07/06/2021"
+	},
+	{
+		sfx:"53774908",
+		description:"cat sound II",
+		tags:["animal","cat"],
+		finder:"shark",
+		date: "07/06/2021"
+	}
 ];
 
 DefinedShout("sfx-catalog")
