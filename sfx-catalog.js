@@ -332,7 +332,50 @@ SFXCatalog = [
 		tags:["animal","cat"],
 		finder:"shark",
 		date: "07/06/2021"
-	}
+	},
+	{
+		sfx:"9780108",
+		description:"passing airplane / jetpack landing",
+		tags:["wind","flight","airplane","jetpack"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	{
+		sfx:"29775308",
+		description:"wind burst",
+		tags:["wind","nature"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	{
+		sfx:"68280108",
+		description:"robotic laughter",
+		tags:["robot"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	{
+		sfx:"70794108",
+		description:"knocking five times",
+		tags:["knock","door","five"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	{
+		sfx:"1782108",
+		description:"water dripping",
+		tags:["drip","water"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	{
+		sfx:"99880508",
+		description:"gun shot",
+		tags:["shot","gun","one"],
+		finder:"Tillman",
+		date: "12/06/2021"
+	},
+	//27012908 hissing
 ];
 
 DefinedShout("sfx-catalog")
