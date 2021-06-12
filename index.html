@@ -38,7 +38,7 @@ ${
 	headers=["SFX","Name","Tags","Finder","Date"],
 	SoundRow=function(entry){
 		return [
-			InlineButtonHTML({txt:entry.sfx,onclick:`playSound("${entry.sfx}")`}),
+			InlineButtonHTML({txt:`${Glyph("play")} ${entry.sfx}`,onclick:`playSound("${entry.sfx}")`}),
 			entry.description,
 			InputLabelsHTML(entry.tags),
 			entry.finder,
@@ -60,6 +60,7 @@ ${
 		console.log("j")
 		PrependToElement(table,".whiteboard .text");
 		DynamicTables();
+		GetElements("table .icon").map(e=>UnClass(e,"icon"));
 	},
 	AfterEventsEvaluate(["LazyLoad","sfx-catalog"],SFXTableHTML),
 	""
