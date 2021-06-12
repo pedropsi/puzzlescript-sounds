@@ -265,7 +265,7 @@ SFXCatalog = [
 	},
 	{
 		sfx: "26680708",
-		description: "heartbeats accellerating",
+		description: "heartbeats accelerating",
 		tags: ["heartbeat"],
 		finder: "Pedro PSI",
 		date: "12/06/2021"
