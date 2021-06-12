@@ -38,7 +38,7 @@ ${
 	headers=["SFX","Name","Tags","Finder","Date"],
 	SoundRow=function(sfx,entry){
 		return [
-			sfx,
+			InlineButtonHTML({txt:sfx,onclick:`playSound("${sfx}")`}),
 			entry.name,
 			InputLabelsHTML(entry.tags),
 			entry.finder,
@@ -74,10 +74,14 @@ ${
 <p>To a add a sound, simply submit a ${AnchorHTML("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${AnchorHTML(`${Glyph("scroll")} sfx-catalog.js`,"https://github.com/pedropsi/puzzlescript-sounds/sfx-catalog.js")}</p>
 
 
-<h2>Using the ${TitleHTML()}</h2>
-
-<h3>Playing sounds (coming soon)</h3>
+<h3>Playing a sound (coming soon)</h3>
 <p>Simply click the SFX number.</p>
+${
+	SourceLoad("codes/game/puzzlescript/modules/sfxr.js"),
+	SourceLoad("codes/game/puzzlescript/modules/rng.js"),
+	muted=false,unitTesting=false,""
+}
+<p>If no sound is produced, please ensure this page has permission to play sounds, e.g. audio is not disabled, and that your speakers are on.</p>
 
 ${Hyper("FilterSearch")}
 ${Hyper("FilterTag")}
