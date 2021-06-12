@@ -321,8 +321,8 @@ SFXCatalog = [
 	},
 	{
 		sfx:"92345908",
-		description:"cat sound",
-		tags:["animal","cat"],
+		description:"cat purr",
+		tags:["animal","cat","happy"],
 		finder:"shark",
 		date: "07/06/2021"
 	},
