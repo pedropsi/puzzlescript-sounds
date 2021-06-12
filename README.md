@@ -14,5 +14,5 @@ Each sound is an *Object* with the following properties:
   - date: a *YYYY-MM-DD* date string with the day it was added
   
 Optional extra properties:
-  - author: a *string* with your name
-  - author-link: a *string* linking to a page of yours
+  - finder: a *string* with your name
+  - finder-link: a *string* linking to a page of yours
