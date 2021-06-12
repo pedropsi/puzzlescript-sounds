@@ -35,10 +35,11 @@
 
 ${
 	SourceLoad("puzzlescript-sounds/sfx-catalog.js"),
-	headers=["SFX","Name","Tags","Finder","Date"],
+	headers=["Play","SFX","Name","Tags","Finder","Date"],
 	SoundRow=function(entry){
 		return [
-			InlineButtonHTML({txt:`${Glyph("play")} ${entry.sfx}`,onclick:`playSound("${entry.sfx}")`}),
+			InlineButtonHTML({txt:`${Glyph("play")}`,onclick:`playSound("${entry.sfx}")`}),
+			AnchorHTML(entry.sfx,"javascript:"+`playSound("${entry.sfx}")`),
 			entry.description,
 			InputLabelsHTML(entry.tags),
 			entry.finder,
