@@ -1,274 +1,299 @@
-SFXCatalog={
-	"24017806":{
-		"name":"PlayD4",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+SFXCatalog=[
+	{
+		sfx: "24017806",
+		description: "Musical note D4",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"9388606":{
-		"name":"PlayE4",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "9388606",
+		description: "Musical note E4",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"35099506":{
-		"name":"PlayGb4",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "35099506",
+		description: "Musical note Gb4",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"870706":{
-		"name":"PlayA4",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "870706",
+		description: "Musical note A4",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"1891306":{
-		"name":"PlayB4",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "1891306",
+		description: "Musical note B4",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"2507306":{
-		"name":"PlayD5",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "2507306",
+		description: "Musical note D5",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"997506":{
-		"name":"PlayE5",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "997506",
+		description: "Musical note E5",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"2966606":{
-		"name":"PlayGb5",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "2966606",
+		description: "Musical note Gb5",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"7959606":{
-		"name":"PlayA5",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "7959606",
+		description: "Musical note A5",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"10155006":{
-		"name":"PlayB5",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "10155006",
+		description: "Musical note B5",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"2273406":{
-		"name":"PlayD6",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "2273406",
+		description: "Musical note D6",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"1882506":{
-		"name":"PlayE6",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "1882506",
+		description: "Musical note E6",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"36206":{
-		"name":"PlayGb6",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "36206",
+		description: "Musical note Gb6",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"4082706":{
-		"name":"PlayA6",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "4082706",
+		description: "Musical note A6",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"381406":{
-		"name":"PlayB6",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "381406",
+		description: "Musical note B6",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"1310106":{
-		"name":"PlayD7",
-		"tags":[ "music","tonal"],
-		"finder":"lucas schueller"
+	{
+		sfx: "1310106",
+		description: "Musical note D7",
+		tags: ["music", "tonal"],
+		finder: "Lucas Schüller"
 	},
-	"73234504":{
-		"name":"kick",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "73234504",
+		description: "kick",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"98762304":{
-		"name":"snare",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "98762304",
+		description: "snare",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"52166707":{
-		"name":"tom",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "52166707",
+		description: "tom",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"89199102":{
-		"name":"bass",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "89199102",
+		description: "bass",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"17662500":{
-		"name":"cowbell",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "17662500",
+		description: "cowbell",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"50712304":{
-		"name":"punchy kick",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "50712304",
+		description: "punchy kick",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"82276300":{
-		"name":"light cowbell",
-		"tags":[ "music","beat","drums"],
-		"finder":"isaac schankler"
+	{
+		sfx: "82276300",
+		description: "light cowbell",
+		tags: ["music", "beat", "drums"],
+		finder: "Isaac Schankler"
 	},
-	"70803708":{
-		"name":"sea waves",
-		"tags":[ "nature","sea"],
-		"finder":"pedropsi"
+	{
+		sfx: "70803708",
+		description: "sea shore",
+		tags: [ "sea","water"],
+		finder: V("name")
 	},
-	"26722908":{
-		"name":"sea waves",
-		"tags":[ "nature","sea"],
-		"finder":"pedropsi"
+	{
+		sfx: "26722908",
+		description: "sea waves",
+		tags: ["sea", "water"],
+		finder: V("name")
 	},
-	"40103708":{
-		"name":"fax machine (not working)",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "40103708",
+		description: "fax machine (not working)",
+		tags: ["machine", "electronics"],
+		finder: V("name")
 	},
-	"31760108":{
-		"name":"photocopier",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "31760108",
+		description: "photocopier",
+		tags: ["machine", "electronics"],
+		finder: V("name")
 	},
-	"35304708":{
-		"name":"photocopier, lower",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "35304708",
+		description: "photocopier, lower",
+		tags: ["machine", "electronics"],
+		finder: V("name")
 	},
-	"67283708":{
-		"name":"elevator ping",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "67283708",
+		description: "delayed elevator ping",
+		tags: ["machine", "electronics","delay"],
+		finder: V("name")
 	},
-	"1744708":{
-		"name":"modem (not working)",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "1744708",
+		description: "modem (not working)",
+		tags: ["machine", "electronics"],
+		finder: V("name")
 	},
-	"34240508":{
-		"name":"helicopter leaving",
-		"tags":[ "machine","electronics"],
-		"finder":"pedropsi"
+	{
+		sfx: "12814508",
+		description: "phone call dropped",
+		tags: ["machine","electronics"],
+		finder: V("name")
 	},
-	"31567508":{
-		"name":"robot disagreeing",
-		"tags":[ "robot","cancel"],
-		"finder":""
+	{
+		sfx: "63440108",
+		description: "distant alarm",
+		tags: ["distance"],
+		finder: V("name")
 	},
-	"10959108":{
-		"name":"robot agreeing gently",
-		"tags":[ "robot","confirm"],
-		"finder":""
+	{
+		sfx: "34240508",
+		description: "helicopter leaving",
+		tags: ["machine", "distance","heavy"],
+		finder: V("name")
 	},
-	"60535908":{
-		"name":"wiping clean glass",
-		"tags":[],
-		"finder":"pedropsi"
+	{
+		sfx: "70103708",
+		description: "metallic plate blowing up far away",
+		tags: ["metal", "distance","heavy"],
+		finder: V("name")
 	},
-	"77077708":{
-		"name":"woop",
-		"tags":[],
-		"finder":"pedropsi"
+	{
+		sfx: "31567508",
+		description: "robot disagreeing",
+		tags: ["robot", "cancel"],
+		finder: V("name")
 	},
-	"85012908":{
-		"name":"quick digits in succession",
-		"tags":[],
-		"finder":""
+	{
+		sfx: "10959108",
+		description: "robot agreeing gently",
+		tags: ["robot", "confirm"],
+		finder: V("name")
 	},
-	"41203708":{
-		"name":"alien bird",
-		"tags":["alien"],
-		"finder":""
+	{
+		sfx:"64018708",
+		description: "robot acknoledging",
+		tags: ["robot","confirm"],
+		finder: V("name")
 	},
-	"5562908":{
-		"name":"aliens singing",
-		"tags":["alien"],
-		"finder":""
+	{
+		sfx: "60535908",
+		description: "wiping clean glass",
+		tags: ["glass"],
+		finder: V("name")
 	},
-	"63440108":{
-		"name":"alien alarm",
-		"tags":["alien"],
-		"finder":""
+	{
+		sfx: "34007108",
+		description: "delayed heartbeat",
+		tags: ["heartbeat","delayed"],
+		finder: V("name")
 	},
-	"16585708":{
-		"name":"bird water robot",
-		"tags":[""],
-		"finder":""
+	{
+		sfx: "57146708",
+		description: "2 heartbeats",
+		tags: ["heartbeat"],
+		finder: V("name")
 	},
-	"38947308":{
-		"name":"bird repetitive",
-		"tags":[],
-		"finder":""
+	{
+		sfx: "80103708",
+		description: "heartbeats nervous",
+		tags: ["heartbeat"],
+		finder: V("name")
 	},
-	"8689508":{
-		"name":"bird chirp",
-		"tags":[],
-		"finder":""
+	{
+		sfx: "26680708",
+		description: "heartbeats accellerating",
+		tags: ["heartbeat"],
+		finder: V("name")
 	},
-	"70103708":{
-		"name":"metallic plate blowing up far away",
-		"tags":["metal"],
-		"finder":"pedropsi"
+	{
+		sfx: "24624508",
+		description: "heartbeats running",
+		tags: ["heartbeat"],
+		finder: V("name")
 	},
-	"34007108":{
-		"name":"heartbeat with delay",
-		"tags":[ "heartbeat"],
-		"finder":"pedropsi"
+	{
+		sfx: "41203708",
+		description: "cute animal acknowledging",
+		tags: ["cute"],
+		finder: V("name")
 	},
-	"57146708":{
-		"name":"heartbeats 2",
-		"tags":[ "heartbeat"],
-		"finder":"pedropsi"
+	{
+		sfx: "16585708",
+		description: "cute animal underwater",
+		tags: ["cute"],
+		finder: V("name")
 	},
-	"80103708":{
-		"name":"heartbeats nervous",
-		"tags":[ "heartbeat"],
-		"finder":"pedropsi"
+	{
+		sfx: "85012908",
+		description: "cute playful animal",
+		tags: ["fast","cute"],
+		finder: V("name")
 	},
-	"26680708":{
-		"name":"heartbeats fibrillation",
-		"tags":[ "heartbeat"],
-		"finder":"pedropsi"
+	{
+		sfx: "77077708",
+		description: "low woop",
+		tags: ["low"],
+		finder: V("name")
 	},
-	"24624508":{
-		"name":"heartbeats running",
-		"tags":[ "heartbeat"],
-		"finder":"pedropsi"
+	{
+		sfx: "9806908",
+		description: "crystal ping",
+		tags: ["ping"],
+		finder: V("name")
 	},
-	"72755308":{
-		"name":"distant instrument",
-		"tags":[],
-		"finder":""
+	{
+		sfx: "73035308",
+		description: "metal grid ping",
+		tags: ["ping"],
+		finder: V("name")
 	},
-	"85480508":{
-		"name":"instrument",
-		"tags":[],
-		"finder":""
-	},
-	"12814508":{
-		"name":"instrument",
-		"tags":[],
-		"finder":""
-	},
-	"9806908":{
-		"name":"crystal",
-		"tags":[],
-		"finder":""
-	},
-	"73035308":{
-		"name":"metallic",
-		"tags":[],
-		"finder":""
-	},
-	"64018708":{
-		"name":"glassy column",
-		"tags":[],
-		"finder":""
-	}
-}
+
+];
 
 DefinedShout("sfx-catalog")

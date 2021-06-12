@@ -36,10 +36,10 @@
 ${
 	SourceLoad("puzzlescript-sounds/sfx-catalog.js"),
 	headers=["SFX","Name","Tags","Finder","Date"],
-	SoundRow=function(sfx,entry){
+	SoundRow=function(entry){
 		return [
-			InlineButtonHTML({txt:sfx,onclick:`playSound("${sfx}")`}),
-			entry.name,
+			InlineButtonHTML({txt:entry.sfx,onclick:`playSound("${entry.sfx}")`}),
+			entry.description,
 			InputLabelsHTML(entry.tags),
 			entry.finder,
 			StringDate(entry.date,"Short")
@@ -52,7 +52,7 @@ ${
 		var table=TableHTML({
 			id:"SFX-Catalog",
 			headers:headers,
-			rows:ThreadKeysValues(SFXCatalog,SoundRow)
+			rows:SFXCatalog.map(SoundRow)
 			// Format:function(table){
 			// 	PrependAfterElement(table,".whiteboard");
 			// 	table.style="width:100%";
@@ -74,8 +74,8 @@ ${
 <p>To a add a sound, simply submit a ${AnchorHTML("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${AnchorHTML(`${Glyph("scroll")} sfx-catalog.js`,"sfx-catalog.js")}</p>
 
 
-<h3>Playing a sound (coming soon)</h3>
-<p>Simply click the SFX number.</p>
+<h3>Playing a sound</h3>
+<p>Simply click the SFX number. If you like the sound, do use it in your projects!</p>
 ${
 	SourceLoad("codes/game/puzzlescript/modules/sfxr.js"),
 	SourceLoad("codes/game/puzzlescript/modules/rng.js"),
@@ -91,6 +91,8 @@ ${Hyper("FilterTag")}
 <p>By default, all game entries are sorted by date of submission, most recent first. Usually those will be the newest sounds.</p>
 <p>To sort the table differently, simply ${KB("click")} the table headers.</p>
 
+<h2>Notable Puzzlescript Music projects</h2>
+<p>Head to ${AHTML("game-tools.html?where=8&search=music")} to see the example entries classed with keyword "music".</p>
 
 <h2>FAQ</h2>
 <h3>Why contribute to this database?</h3>
