@@ -2,10 +2,10 @@
 Find and share Puzzlescript sound effects (SFX).
 
 ## Web page
-The Puzzlescript Sound Catalog will be hosted at: https://pedropsi.github.io/puzzlescript-sounds.
+The Puzzlescript SFX Catalog will be hosted at: https://pedropsi.github.io/puzzlescript-sounds.
 
 ## How to contribute
-Simply edit the ps-sfx-catalog.js file to add your sounds directly.
+Simply edit the sfx-catalog.js file to add your sounds directly.
 
 Each sound is an *Object* with the following properties:
   - sfx: a *number*, equal to the puzzlescript sfx code 
@@ -14,5 +14,5 @@ Each sound is an *Object* with the following properties:
   - date: a *YYYY-MM-DD* date string with the day it was added
   
 Optional extra properties:
-  - author: a *string* with your name
-  - author-link: a *string* linking to a page of yours
+  - finder: a *string* with your name
+  - finder-link: a *string* linking to a page of yours
