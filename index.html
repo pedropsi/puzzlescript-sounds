@@ -58,7 +58,7 @@ ${
 			// 	table.style="width:100%";
 		});
 		console.log("j")
-		PrependToElement(table,".whiteboard .text");
+		AppendAfterElement(table,".summary");
 		DynamicTables();
 		GetElements("table .icon").map(e=>UnClass(e,"icon"));
 	},
@@ -67,7 +67,7 @@ ${
 }
 
 
-<p>${Config("page.summary")}</p>
+<p class="summary">${Config("page.summary")}</p>
 
 
 <h2>Contributing a sound to the ${TitleHTML()}</h2>
