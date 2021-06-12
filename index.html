@@ -42,7 +42,7 @@ ${
 			entry.description,
 			InputLabelsHTML(entry.tags),
 			entry.finder,
-			StringDate(entry.date,"Short")
+			entry.date?DateString(entry.date,"Short"):"unknown"
 		];
 	},
 	SFXTableHTML=function(){
@@ -67,14 +67,32 @@ ${
 }
 
 
-<h2>${TitleHTML()}</h2>
 <p>${Config("page.summary")}</p>
 
 
-<h3>Contributing a sound to the ${TitleHTML()}</h3>
+<h2>Contributing a sound to the ${TitleHTML()}</h2>
 <p>To a add a sound, simply submit a ${AnchorHTML("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${AnchorHTML(`${Glyph("scroll")} sfx-catalog.js`,"sfx-catalog.js")}</p>
 
+<h4>Guidelines for naming and tagging</h4>
+<p>The goal is to make easy for others to find the relevant sounds, by typing some search words or clicking some tags.</p>
+<h5>Please do</h5>
+<p>Describe the sound (quick, slow, high pitch, low pitch, etc...) and/or which object or situation it could represent (e.g: robot voice, sea waves, nuclear explosion, etc... ).</p>
+<p>When picking tags, prefer tags that already have sounds similar to yours, or those that could be used in a similar/opposite situation, so that they can be linked. Similarly, try to phrase the descriptions using the same words used for similar sounds.</p>
+<h5>Please avoid</h5>
+<p>
+	<ul>
+		<li>adding sounds almost identical to an existing sound;</li>
+		<li>restrictng your tags to words "bird","hit","explosion","blip" as these are used to generate the sounds themselves.</li>
+	</ul>
+</p>
 
+
+<h2>Notable Puzzlescript Music projects</h2>
+<p>Head to ${AHTML("game-tools.html?where=8&search=music")} to see the example entries classed with keyword "music".</p>
+
+
+
+<h2>Using the ${TitleHTML()}</h2>
 <h3>Playing a sound</h3>
 <p>Simply click the SFX number. If you like the sound, do use it in your projects!</p>
 ${
@@ -92,8 +110,6 @@ ${Hyper("FilterTag")}
 <p>By default, all game entries are sorted by date of submission, most recent first. Usually those will be the newest sounds.</p>
 <p>To sort the table differently, simply ${KB("click")} the table headers.</p>
 
-<h2>Notable Puzzlescript Music projects</h2>
-<p>Head to ${AHTML("game-tools.html?where=8&search=music")} to see the example entries classed with keyword "music".</p>
 
 <h2>FAQ</h2>
 <h3>Why contribute to this database?</h3>

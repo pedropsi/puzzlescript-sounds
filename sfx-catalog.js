@@ -1,4 +1,4 @@
-SFXCatalog=[
+SFXCatalog = [
 	{
 		sfx: "24017806",
 		description: "Musical note D4",
@@ -140,160 +140,185 @@ SFXCatalog=[
 	{
 		sfx: "70803708",
 		description: "sea shore",
-		tags: [ "sea","water"],
-		finder: V("name")
+		tags: ["sea", "water"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "26722908",
 		description: "sea waves",
 		tags: ["sea", "water"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "40103708",
 		description: "fax machine (not working)",
 		tags: ["machine", "electronics"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "31760108",
 		description: "photocopier",
 		tags: ["machine", "electronics"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "35304708",
 		description: "photocopier, lower",
 		tags: ["machine", "electronics"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "67283708",
 		description: "delayed elevator ping",
-		tags: ["machine", "electronics","delay"],
-		finder: V("name")
+		tags: ["machine", "electronics", "delay"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "1744708",
 		description: "modem (not working)",
 		tags: ["machine", "electronics"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "12814508",
 		description: "phone call dropped",
-		tags: ["machine","electronics"],
-		finder: V("name")
+		tags: ["machine", "electronics"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "63440108",
 		description: "distant alarm",
 		tags: ["distance"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "34240508",
 		description: "helicopter leaving",
-		tags: ["machine", "distance","heavy"],
-		finder: V("name")
+		tags: ["machine", "distance", "heavy"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "70103708",
 		description: "metallic plate blowing up far away",
-		tags: ["metal", "distance","heavy"],
-		finder: V("name")
+		tags: ["metal", "distance", "heavy"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "31567508",
 		description: "robot disagreeing",
 		tags: ["robot", "cancel"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "10959108",
 		description: "robot agreeing gently",
 		tags: ["robot", "confirm"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
-		sfx:"64018708",
+		sfx: "64018708",
 		description: "robot acknoledging",
-		tags: ["robot","confirm"],
-		finder: V("name")
+		tags: ["robot", "confirm"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "60535908",
 		description: "wiping clean glass",
 		tags: ["glass"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "34007108",
 		description: "delayed heartbeat",
-		tags: ["heartbeat","delayed"],
-		finder: V("name")
+		tags: ["heartbeat", "delayed"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "57146708",
 		description: "2 heartbeats",
 		tags: ["heartbeat"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "80103708",
 		description: "heartbeats nervous",
 		tags: ["heartbeat"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "26680708",
 		description: "heartbeats accellerating",
 		tags: ["heartbeat"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "24624508",
 		description: "heartbeats running",
 		tags: ["heartbeat"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "41203708",
 		description: "cute animal acknowledging",
 		tags: ["cute"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "16585708",
 		description: "cute animal underwater",
 		tags: ["cute"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "85012908",
 		description: "cute playful animal",
-		tags: ["fast","cute"],
-		finder: V("name")
+		tags: ["fast", "cute"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "77077708",
 		description: "low woop",
 		tags: ["low"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "9806908",
 		description: "crystal ping",
 		tags: ["ping"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
 	{
 		sfx: "73035308",
 		description: "metal grid ping",
 		tags: ["ping"],
-		finder: V("name")
+		finder: "Pedro PSI",
+		date: "12/06/2021"
 	},
-
 ];
 
 DefinedShout("sfx-catalog")
