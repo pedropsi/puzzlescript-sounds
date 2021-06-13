@@ -140,14 +140,14 @@ SFXCatalog = [
 	{
 		sfx: "70803708",
 		description: "sea shore",
-		tags: ["sea", "water"],
+		tags: ["sea", "water","nature"],
 		finder: "Pedro PSI",
 		date: "12/06/2021"
 	},
 	{
 		sfx: "26722908",
 		description: "sea waves",
-		tags: ["sea", "water"],
+		tags: ["sea", "water","nature"],
 		finder: "Pedro PSI",
 		date: "12/06/2021"
 	},
@@ -185,6 +185,20 @@ SFXCatalog = [
 		tags: ["machine", "electronics"],
 		finder: "Pedro PSI",
 		date: "12/06/2021"
+	},
+	{
+		sfx: "73074508",
+		description: "scanner",
+		tags: ["machine", "electronics"],
+		finder: "Pedro PSI",
+		date: "13/06/2021"
+	},
+	{
+		sfx: "90047508",
+		description: "electric razor / shaver",
+		tags: ["machine", "electronics"],
+		finder: "Pedro PSI",
+		date: "13/06/2021"
 	},
 	{
 		sfx: "12814508",
@@ -250,11 +264,11 @@ SFXCatalog = [
 		date: "12/06/2021"
 	},
 	{
-		sfx: "57146708",
-		description: "2 heartbeats",
+		sfx: "47223708",
+		description: "one heartbeat",
 		tags: ["heartbeat"],
 		finder: "Pedro PSI",
-		date: "12/06/2021"
+		date: "13/06/2021"
 	},
 	{
 		sfx: "80103708",
@@ -334,6 +348,13 @@ SFXCatalog = [
 		date: "07/06/2021"
 	},
 	{
+		sfx:"15587308",
+		description:"cat whine",
+		tags:["animal","cat"],
+		finder:"Pedro PSI",
+		date: "13/06/2021"
+	},
+	{
 		sfx:"9780108",
 		description:"passing airplane / jetpack landing",
 		tags:["wind","flight","airplane","jetpack"],
@@ -376,6 +397,8 @@ SFXCatalog = [
 		date: "12/06/2021"
 	},
 	//27012908 hissing
+	//73610908 theremin
+	//56505308 fast scan
 ];
 
 DefinedShout("sfx-catalog")
