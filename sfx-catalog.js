@@ -322,7 +322,14 @@ SFXCatalog = [
 	{
 		sfx: "9806908",
 		description: "crystal ping",
-		tags: ["ping"],
+		tags: ["ping","glass"],
+		finder: "Pedro PSI",
+		date: "12/06/2021"
+	},
+	{
+		sfx: "95300508",
+		description: "glass ping",
+		tags: ["ping","glass"],
 		finder: "Pedro PSI",
 		date: "12/06/2021"
 	},
@@ -369,6 +376,13 @@ SFXCatalog = [
 		date: "12/06/2021"
 	},
 	{
+		sfx:"21863708",
+		description:"windy rain",
+		tags:["wind","rain","nature"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
 		sfx:"68280108",
 		description:"robotic laughter",
 		tags:["robot"],
@@ -396,9 +410,62 @@ SFXCatalog = [
 		finder:"Tilmann",
 		date: "12/06/2021"
 	},
+	{
+		sfx:"68710108",
+		description:"wrong answer",
+		tags:["cancel","error","wrong"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"76861108",
+		description:"submarine sonar beep",
+		tags:["sea","underwater","sonar"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"57894308",
+		description:"fading song",
+		tags:["music"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"95590108",
+		description:"doorbell",
+		tags:["door","bell"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"50526108",
+		description:"laser cannon / spaceship motor charging",
+		tags:["laser","charge"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"15257108",
+		description:"donkey",
+		tags:["animal","donkey"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	{
+		sfx:"76284908",
+		description:"falling into a pit",
+		tags:["fall"],
+		finder:"Pedro PSI",
+		date: "14/06/2021"
+	},
+	//bubbles 37592108
+	//86711308 digital alarm clock
+	//54520708 horse
 	//27012908 hissing
 	//73610908 theremin
 	//56505308 fast scan
+	//58917508 double
 ];
 
 DefinedShout("sfx-catalog")
