@@ -201,6 +201,20 @@ SFXCatalog = [
 		date: "13/06/2021"
 	},
 	{
+		sfx: "73074508",
+		description: "scanner",
+		tags: ["machine", "electronics"],
+		finder: "Pedro PSI",
+		date: "13/06/2021"
+	},
+	{
+		sfx: "90047508",
+		description: "electric razor / shaver",
+		tags: ["machine", "electronics"],
+		finder: "Pedro PSI",
+		date: "13/06/2021"
+	},
+	{
 		sfx: "12814508",
 		description: "phone call dropped",
 		tags: ["machine", "electronics"],
