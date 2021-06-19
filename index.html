@@ -35,31 +35,33 @@
 
 ${
 	SourceLoad("puzzlescript-sounds/sfx-catalog.js"),
-	headers=["Play","SFX","Name","Tags","Finder","Date"],
+	headers=["Play","SFX","Name","Tags","Found","Date"],
 	SoundRow=function(entry){
 		return [
 			InlineButtonHTML({txt:`${Glyph("play")}`,onclick:`playSound("${entry.sfx}")`}),
 			AnchorHTML(entry.sfx,"javascript:"+`playSound("${entry.sfx}")`),
 			entry.description,
 			InputLabelsHTML(entry.tags),
-			entry.finder,
-			entry.date?DateString(entry.date,"Short"):"unknown"
+			entry.finderlink?AnchorHTML(entry.finder,entry.finderlink):entry.finder,
+			entry.date?DateString(entry.date,"YYYY-MM-DD"):"unknown"
 		];
 	},
 	SFXTableHTML=function(){
 		if(SFXTableHTML.once)
 			return;
 		SFXTableHTML.once=true;
-		var table=TableHTML({
-			id:"SFX-Catalog",
+		var musicTable=TableHTML({
+			id:"SFX-Catalog-music",
 			headers:headers,
-			rows:SFXCatalog.map(SoundRow)
-			// Format:function(table){
-			// 	PrependAfterElement(table,".whiteboard");
-			// 	table.style="width:100%";
+			rows:SFXCatalog.filter(m=>In(m.tags,"music")).map(SoundRow)
 		});
-		console.log("j")
-		AppendAfterElement(table,".summary");
+		var soundTable=TableHTML({
+			id:"SFX-Catalog-music",
+			headers:headers,
+			rows:SortBy(SFXCatalog.filter(m=>!In(m.tags,"music")),m=>-StringDate(m.date)).map(SoundRow)
+		});
+		AppendAfterElement(musicTable,"musical");
+		AppendAfterElement(soundTable,"evocative");
 		DynamicTables();
 		GetElements("table .icon").map(e=>UnClass(e,"icon"));
 	},
@@ -69,7 +71,10 @@ ${
 
 
 <p class="summary">${Config("page.summary")}</p>
+<p class="summary">Find sounds that evoke particular ${AHTML("objects or situations","#evocative")}, or are highly ${AHTML("#musical")}, and ${AHTML("#contribute your own")}!</p>
+<h2 id="evocative">Evocative sounds</h2>
 
+<h2 id="musical">Musical sounds</h2>
 
 <h2>Contributing a sound to the ${TitleHTML()}</h2>
 <p>To a add a sound, simply submit a ${AnchorHTML("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${AnchorHTML(`${Glyph("scroll")} sfx-catalog.js`,"sfx-catalog.js")}</p>
@@ -77,7 +82,7 @@ ${
 <h4>Guidelines for naming and tagging</h4>
 <p>The goal is to make easy for others to find the relevant sounds, by typing some search words or clicking some tags.</p>
 <h5>Please do</h5>
-<p>Describe the sound (quick, slow, high pitch, low pitch, etc...) and/or which object or situation it could represent (e.g: robot voice, sea waves, nuclear explosion, etc... ).</p>
+<p>Describe the sound (quick, slow, high pitch, low pitch, etc...) and/or which object or situation it could represent (e.g: robot voice, sea waves, cute animal, etc... ).</p>
 <p>When picking tags, prefer tags that already have sounds similar to yours, or those that could be used in a similar/opposite situation, so that they can be linked. Similarly, try to phrase the descriptions using the same words used for similar sounds.</p>
 <h5>Please avoid</h5>
 <p>
