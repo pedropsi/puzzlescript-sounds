@@ -489,6 +489,62 @@ SFXCatalog = [
 		finderlink:"https://menderbug.itch.io/a-sailors-pastime",
 		date: "19/06/2021"
 	},
+	{
+		sfx:"28799503",
+		description:"Heavy Water Drop",
+		tags:["drip","drop","water"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"31921708",
+		description:"Airlock Door",
+		tags:["door","space","wind"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"56900508",
+		description:"Quick Gunshot / Hammer",
+		tags:["gun","shot","knock"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"92572708",
+		description:"Tractor Beam / Flying Saucer",
+		tags:["space","alien","beam"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"84894508",
+		description:"Waterfall",
+		tags:["loud","water","nature"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"20414108",
+		description:"Rifle Shot",
+		tags:["gun","shot","echo"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
+	{
+		sfx:"71824908",
+		description:"Airplane / Jet / Rocket Ship",
+		tags:["space","loud","machine","flight"],
+		finder:"Corey Hardt",
+		finderlink:"https://coreyhardt.itch.io",
+		date: "18/02/2022"
+	},
 
 	//bubbles 37592108
 	//86711308 digital alarm clock
