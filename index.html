@@ -33,79 +33,82 @@
 		<script src="../codes/core.js"></script>
 		<script id="post">POST=()=>POST=`
 
+
 ${
+	SourceLoad("puzzlescript/libraries/sfxr.js"),
+	SourceLoad("puzzlescript/libraries/rng.js"),
+	muted=false,unitTesting=false,
+
 	SourceLoad("puzzlescript-sounds/sfx-catalog.js"),
-	headers=["Play","SFX","Name","Tags","Found","Date"],
+	headers=["SFX","Name","Tags","Found","Date"],
 	SoundRow=function(entry){
 		return [
-			InlineButtonHTML({txt:`${Glyph("play")}`,onclick:`playSound("${entry.sfx}")`}),
-			AnchorHTML(entry.sfx,"javascript:"+`playSound("${entry.sfx}")`),
+			InlineButtonl({txt:`${Glyph("play")}`,onclick:`playSound("${entry.sfx}")`})+"  "+
+			Anchorl(entry.sfx,"javascript:"+`playSound("${entry.sfx}")`),
 			entry.description,
-			InputLabelsHTML(entry.tags),
-			entry.finderlink?AnchorHTML(entry.finder,entry.finderlink):entry.finder,
-			entry.date?DateString(entry.date,"YYYY-MM-DD"):"unknown"
+			InputLabelsl(entry.tags),
+			entry.finderlink?Anchorl(entry.finder,entry.finderlink):entry.finder,
+			entry.date?DatexString(entry.date,"YYYY-MM-DD"):"unknown"
 		];
 	},
-	SFXTableHTML=function(){
-		if(SFXTableHTML.once)
+	SFXTableHtml=function(){
+		if(SFXTableHtml.once)
 			return;
-		SFXTableHTML.once=true;
-		var musicTable=TableHTML({
+		SFXTableHtml.once=true;
+		var musicTable=TableHtml({
 			id:"SFX-Catalog-music",
 			headers:headers,
 			rows:SFXCatalog.filter(m=>In(m.tags,"music")).map(SoundRow)
 		});
-		var soundTable=TableHTML({
+		var soundTable=TableHtml({
 			id:"SFX-Catalog-music",
 			headers:headers,
 			rows:SortBy(SFXCatalog.filter(m=>!In(m.tags,"music")),m=>-StringDate(m.date)).map(SoundRow)
 		});
-		AppendAfterElement(musicTable,"musical");
-		AppendAfterElement(soundTable,"evocative");
+		ExPospendElement(musicTable,"musical");
+		ExPospendElement(soundTable,"evocative");
 		DynamicTables();
 		GetElements("table .icon").map(e=>UnClass(e,"icon"));
 	},
-	AfterEventsEvaluate(["LazyLoad","sfx-catalog"],SFXTableHTML),
+	PosEventsEvaluate(["LazyLoad","sfx-catalog"],SFXTableHtml),
 	""
 }
 
 
 <p class="summary">${Config("page.summary")}</p>
-<p class="summary">Find sounds that evoke particular ${AHTML("objects or situations","#evocative")}, or are highly ${AHTML("#musical")}, and ${AHTML("#contribute your own")}!</p>
+<p class="summary">Find sounds that «evoke objects or situations», or are highly «musical», and «contribute your own»!</p>
+
 <h2 id="evocative">Evocative sounds</h2>
 
 <h2 id="musical">Musical sounds</h2>
 
-<h2>Contributing a sound to the ${TitleHTML()}</h2>
-<p>To a add a sound, simply submit a ${AnchorHTML("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${AnchorHTML(`${Glyph("scroll")} sfx-catalog.js`,"sfx-catalog.js")}</p>
+<h2>Contributing a sound to the ${TitleHtml()}</h2>
+<p>To a add a sound, simply submit a ${Anchorl("Pull Request to the repository","https://github.com/pedropsi/puzzlescript-sounds")}, using the format seen in the file ${Anchorl(`${Glyph("scroll")} sfx-catalog.js`,"sfx-catalog.js")}</p>
 
-<h4>Guidelines for naming and tagging</h4>
-<p>The goal is to make easy for others to find the relevant sounds, by typing some search words or clicking some tags.</p>
-<h5>Please do</h5>
-<p>Describe the sound (quick, slow, high pitch, low pitch, etc...) and/or which object or situation it could represent (e.g: robot voice, sea waves, cute animal, etc... ).</p>
-<p>When picking tags, prefer tags that already have sounds similar to yours, or those that could be used in a similar/opposite situation, so that they can be linked. Similarly, try to phrase the descriptions using the same words used for similar sounds.</p>
-<h5>Please avoid</h5>
-<p>
-	<ul>
-		<li>adding sounds almost identical to an existing sound;</li>
-		<li>restricting your tags to words "coin","collect item","explosion","powerup","bird","chirp","hit","hurt","jump","laser","pew pew","blip","select" as these are already used in the PS editor to generate the sounds.</li>
-	</ul>
-</p>
+#### Guidelines for naming and tagging
+The goal is to make easy for others to find the relevant sounds, by typing some search words or clicking some tags.
 
+##### Do
+Describe the sound (quick, slow, high pitch, low pitch, etc...) and/or which object or situation it could represent (e.g: robot voice, sea waves, cute animal, etc... ).
+When picking tags, prefer tags that already have sounds similar to yours, or those that could be used in a similar/opposite situation, so that they can be linked. Similarly, try to phrase the descriptions using the same words used for similar sounds.
 
-<h2>Notable Puzzlescript Music projects</h2>
-<p>Head to ${AHTML("game-tools.html?where=8&search=music")} to see the example entries classed with keyword "music".</p>
+##### Avoid
+Please avoid adding sounds almost identical to an existing sound, and relying on following words:
+
+coin	collect item	explosion	powerup
+bird	chirp			hit			hurt
+jump	laser			pew pew		blip
+select	...
 
 
+##Notable Puzzlescript Music projects
+Head to the [Game Tools|game-tools.html?where=8&search=music] to see the example entries classed with keyword "music"
 
-<h2>Using the ${TitleHTML()}</h2>
+
+<h2>Using the ${TitleHtml()}</h2>
 <h3>Playing a sound</h3>
 <p>Simply click the SFX number. If you like the sound, do use it in your projects!</p>
-${
-	SourceLoad("codes/game/puzzlescript/modules/sfxr.js"),
-	SourceLoad("codes/game/puzzlescript/modules/rng.js"),
-	muted=false,unitTesting=false,""
-}
+
 <p>If no sound is produced, please ensure this page has permission to play sounds, e.g. audio is not disabled, and that your speakers are on.</p>
 
 ${Hyper("FilterSearch")}
@@ -114,7 +117,7 @@ ${Hyper("FilterTag")}
 <h4>Sorting</h4>
 <h5>Date added</h5>
 <p>By default, all game entries are sorted by date of submission, most recent first. Usually those will be the newest sounds.</p>
-<p>To sort the table differently, simply ${KB("click")} the table headers.</p>
+<p>To sort the table differently, simply K«click» the table headers.</p>
 
 
 <h2>FAQ</h2>
@@ -133,7 +136,6 @@ ${Hyper("CitationSelf")}
 ${Hyper("Suggestions")}
 
 `</script>
-<script>RootPath=function(){return "../";}</script>
-<script src="../codes/loader.js"></script>
+<script src="../data/loader.js"></script>
 	</head>Loading...</html>
 	
