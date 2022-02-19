@@ -1,5 +1,93 @@
 SFXCatalog = [
 	{
+		sfx:"44038508",
+		description:"loud doorbell",
+		tags:["door","bell"],
+		finder:"stingby12",
+		date: "22/12/2021"
+	},
+	{
+		sfx:"65765308",
+		description:"deep loud growl",
+		tags:["animal","machine"],
+		finder:"stingby12",
+		date: "19/12/2021"
+	},
+	{
+		sfx:"95505908",
+		description:"tropical animal sound / turbine",
+		tags:["animal","machine"],
+		finder:"Martin Ender (Menderbug)",
+		date: "29/11/2021"
+	},
+	{
+		sfx:"10268108",
+		description:"robot slap",
+		tags:["robot"],
+		finder:"stingby12",
+		date: "11/11/2021"
+	},
+	{
+		sfx:"74954908",
+		description:"heavy generator starting",
+		tags:["ambient","machine"],
+		finder:"stingby12",
+		date: "11/11/2021"
+	},
+	{
+		sfx:"73027108",
+		description:"drone buzzing",
+		tags:["animal","drone"],
+		finder:"stingby12",
+		date: "28/10/2021"
+	},
+	{
+		sfx:"49593708",
+		description:"jaguar purr",
+		tags:["animal","cat"],
+		finder:"shark",
+		date: "15/07/2021"
+	},
+	{
+		sfx:"57356908",
+		description:"playful cat",
+		tags:["animal","cat"],
+		finder:"shark",
+		date: "15/07/2021"
+	},
+	{
+		sfx:"84827308",
+		description:"didgeridoo / oscillating plasma arc",
+		tags:["electricity","instrument"],
+		finder:"Martin Ender (Menderbug)",
+		finderlink:"https://menderbug.itch.io",
+		date: "07/07/2021"
+	},
+	{
+		sfx:"62652708",
+		description:"Nuclear explosion with echo",
+		tags:["explosion","echo"],
+		finder:"Martin Ender (Menderbug)",
+		finderlink:"https://menderbug.itch.io",
+		date: "07/07/2021"
+	},
+	{
+		sfx:"58036908",
+		description:"Musical note A2",
+		tags:["music","tonal","strings"],
+		finder:"Martin Ender (Menderbug)",
+		finderlink:"https://menderbug.itch.io",
+		date: "30/06/2021"
+	},
+	{
+		sfx:"48306102",
+		description:"cool bounce",
+		tags:["bounce"],
+		finder:"Martin Ender (Menderbug)",
+		finderlink:"https://menderbug.itch.io",
+		date: "28/06/2021"
+	},
+	{
 		sfx: "24017806",
 		description: "Musical note D4",
 		tags: ["music", "tonal"],
@@ -141,217 +229,203 @@ SFXCatalog = [
 		sfx: "70803708",
 		description: "sea shore",
 		tags: ["sea", "water","nature"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "26722908",
 		description: "sea waves",
 		tags: ["sea", "water","nature"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "40103708",
 		description: "fax machine (not working)",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "31760108",
 		description: "photocopier",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "35304708",
 		description: "photocopier, lower",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "67283708",
 		description: "delayed elevator ping",
 		tags: ["machine", "electronics", "delay"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "1744708",
 		description: "modem (not working)",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "73074508",
 		description: "scanner",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "13/06/2021"
 	},
 	{
 		sfx: "90047508",
 		description: "electric razor / shaver",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
-		date: "13/06/2021"
-	},
-	{
-		sfx: "73074508",
-		description: "scanner",
-		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
-		date: "13/06/2021"
-	},
-	{
-		sfx: "90047508",
-		description: "electric razor / shaver",
-		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "13/06/2021"
 	},
 	{
 		sfx: "12814508",
 		description: "phone call dropped",
 		tags: ["machine", "electronics"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "63440108",
 		description: "distant alarm",
 		tags: ["distance"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "34240508",
 		description: "helicopter leaving",
 		tags: ["machine", "distance", "heavy"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "70103708",
 		description: "metallic plate blowing up far away",
 		tags: ["metal", "distance", "heavy"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "31567508",
 		description: "robot disagreeing",
 		tags: ["robot", "cancel"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "10959108",
 		description: "robot agreeing gently",
 		tags: ["robot", "confirm"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "64018708",
 		description: "robot acknowledging",
 		tags: ["robot", "confirm"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "60535908",
 		description: "wiping clean glass",
 		tags: ["glass"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "34007108",
 		description: "delayed heartbeat",
 		tags: ["heartbeat", "delayed"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "47223708",
 		description: "one heartbeat",
 		tags: ["heartbeat"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "13/06/2021"
 	},
 	{
 		sfx: "80103708",
 		description: "heartbeats nervous",
 		tags: ["heartbeat"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "26680708",
 		description: "heartbeats accelerating",
 		tags: ["heartbeat"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "24624508",
 		description: "heartbeats running",
 		tags: ["heartbeat"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "41203708",
 		description: "cute animal acknowledging",
 		tags: ["cute"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "16585708",
 		description: "cute animal underwater",
 		tags: ["cute"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "85012908",
 		description: "cute playful animal",
 		tags: ["fast", "cute"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "77077708",
 		description: "low woop",
 		tags: ["low"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "9806908",
 		description: "crystal ping",
 		tags: ["ping","glass"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "95300508",
 		description: "glass ping",
 		tags: ["ping","glass"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
 		sfx: "73035308",
 		description: "metal grid ping",
 		tags: ["ping"],
-		finder: "Pedro PSI",
+		finder: "Pedro",
 		date: "06/06/2021"
 	},
 	{
@@ -372,7 +446,7 @@ SFXCatalog = [
 		sfx:"15587308",
 		description:"cat whine",
 		tags:["animal","cat"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "13/06/2021"
 	},
 	{
@@ -393,7 +467,7 @@ SFXCatalog = [
 		sfx:"21863708",
 		description:"windy rain",
 		tags:["wind","rain","nature"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
@@ -428,49 +502,49 @@ SFXCatalog = [
 		sfx:"68710108",
 		description:"wrong answer",
 		tags:["cancel","error","wrong"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"76861108",
 		description:"submarine sonar beep",
 		tags:["sea","underwater","sonar"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"57894308",
 		description:"fading song",
 		tags:["music"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"95590108",
 		description:"doorbell",
 		tags:["door","bell"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"50526108",
 		description:"laser cannon / spaceship motor charging",
 		tags:["laser","charge"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"15257108",
 		description:"donkey",
 		tags:["animal","donkey"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
 		sfx:"76284908",
 		description:"falling into a pit",
 		tags:["fall"],
-		finder:"Pedro PSI",
+		finder:"Pedro",
 		date: "14/06/2021"
 	},
 	{
